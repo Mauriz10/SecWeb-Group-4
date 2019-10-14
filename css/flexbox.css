@@ -1,0 +1,33 @@
+/* ===========================
+===========Flexbox=============
+============================ */
+
+@media (min-width: 769px) {
+    .container,
+    .main-nav {
+        display: flex;
+        justify-content: space-between;
+        height: 64px;
+        align-items: center;
+    }
+    
+    .main-nav {
+        flex-direction: row;
+        flex-grow: .1;
+    }
+    
+    .content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .secondary,
+    .primary {
+       flex-basis: 80%; 
+    }
+    
+}
+
+@media (min-width: 1025px) {
+    
+}
