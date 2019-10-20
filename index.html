@@ -9,23 +9,58 @@
     <link rel="stylesheet" href="css/flexbox.css">
 </head>
 <body>
-	<div class="wrap">
+	<div class="wrap"> 
         <header class="main-header">
             <div class="container clearfix">
-                <h1 class="name"><a href="#">Best Delivery Company</a></h1>
+                <h1 class="name"><a href="index.html">Best Delivery Company</a></h1>
                 <ul class="main-nav">
-                    <li><a href="#">Customer Data</a></li>
-                    <li><a href="#">Temporary workers</a></li>
-                    <li><a href="#">Shipping security</a></li>
-                    <li><a href="#">Partner security</a></li>
-                    <li><a href="#">Security guide</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="dropbtn">Customer Data</a>
+                            <div class="dropdown-content">
+                            <a href="subpage/DSecurity.html">Database security</a>
+                            <a href="subpage/HData.html">Handling of data</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="subpage/TWorker.html">Temporary workers</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="dropbtn">Shipping security</a>
+                            <div class="dropdown-content">
+                            <a href="subpage/InterShipping.html">International shipping</a>
+                            <a href="subpage/NaShipping.html">National shipping</a>
+                            <a href="subpage/ShipStatus.html">Shipment status</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="dropbtn">Partner security</a>
+                            <div class="dropdown-content">
+                            <a href="subpage/PFacilities.html">Facilities</a>
+                            <a href="subpage/Software.html">Software</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="dropbtn">Security guide</a>
+                            <div class="dropdown-content">
+                            <a href="subpage/GFacilities.html">Facilities</a>
+                            <a href="subpage/Packages.html">Packages</a>
+                            <a href="subpage/Guidelines.html">Process & work guidelines</a>
+                            <a href="subpage/Vehicles.html">Vehicles</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="subpage/Contact.html">Contact</a></li>
                 </ul>
             </div>
         </header><!--/.main-header-->   
 
             <div class="banner">
-                <img class="logo" src="img/logo.svg" alt="City">
+                <img class="logo" src="img/logo.svg" alt="Company">
                 <h1 class="headline">The Best Delivery Company</h1>
                 <span class="tagline">Slogan of company</span>
             </div><!--/.banner-->
