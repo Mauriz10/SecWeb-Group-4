@@ -6,16 +6,12 @@
     .container,
     .main-nav {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         height: 64px;
         align-items: center;
-    }
-    
-    .main-nav {
         flex-direction: row;
-        flex-grow: .1;
     }
-    
+
     .content {
         display: flex;
         justify-content: center;

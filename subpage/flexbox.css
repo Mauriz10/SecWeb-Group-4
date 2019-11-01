@@ -16,18 +16,4 @@
         flex-grow: .1;
     }
     
-    .content {
-        display: flex;
-        justify-content: center;
     }
-
-    .secondary,
-    .primary {
-       flex-basis: 80%; 
-    }
-    
-}
-
-@media (min-width: 1025px) {
-    
-}

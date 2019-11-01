@@ -34,24 +34,6 @@ img {
 	max-width: 100%;
 }
 
-figure {
-	position: relative;
-	margin: 0;
-	line-height: 0;
-}
-
-figcaption {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-
-	padding: .5em;
-	font-size: .9em;
-	line-height: 1.5;
-	color: #fff;
-	background-color: rgba(19,43,102, .85);
-}
-
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -184,52 +166,10 @@ figcaption {
 		z-index: 1;
 	}
 
-	/* .container {
-		width: 90%;
-		margin: 0 auto;
-	} */
-
 	.wrap {
 		min-height: calc(100vh - 89px);
 	}
 
-	/* .name,
-	.main-nav li {
-		float: left;
-	}
-	.main-nav {
-		float: right;
-	}
-	.main-nav li {
-		margin-top: 12px;
-		margin-left: 12px;
-	} */ 
-	/* ---- Float clearfix ---- */
-
-	/* .clearfix::after {
-		content: " ";
-		display: table;
-		clear: both;
-	} */
-	/* --------Columns------- */
-	/* .secondary,
-	.primary {
-		float: left;
-		width: 50%;
-	}*/
-	
-	.col {
-		display: inline-block;
-		padding-left: 1em;
-		padding-right: 1em;
-		vertical-align: top;
-
-	}
-	/* .content {
-		width: 80%;
-		max-width: 1150px;
-		/* margin: 0 auto;
-		padding: 50px 0; */
 }
 
 @media (min-width: 1025px) {
@@ -238,12 +178,4 @@ figcaption {
 		max-width: 1150px;
 	}
 
-
-	/* .secondary,
-	.tertiary {
-		width: 30%;
-	}
-	.primary {
-		width: 40%;
-	} */
 }
